@@ -232,7 +232,6 @@ This project is open source and available under the MIT License.
 ## 📞 Contact
 
 - **Email**: [sn240803@gmail.com](mailto:sn240803@gmail.com)
-- **Phone**: 747-717-0533
 - **GitHub**: [github.com/Avetiska-2](https://github.com/Avetiska-2)
 - **Portfolio**: [avetiska-2.github.io/My-Portfolio](https://avetiska-2.github.io/My-Portfolio/)
 
