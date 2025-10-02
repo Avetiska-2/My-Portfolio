@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '../ui/card';
 import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { Textarea } from '../ui/textarea';
-import { Mail, Send, MapPin, Phone, Github, Linkedin } from 'lucide-react';
+import { Mail, Send, MapPin, Github, Linkedin } from 'lucide-react';
 import { useToast } from '../ui/use-toast';
 
 const Contact = () => {
@@ -74,12 +74,6 @@ const Contact = () => {
       label: 'Location',
       value: 'Burbank, CA',
       href: null
-    },
-    {
-      icon: Phone,
-      label: 'Phone',
-      value: '747-717-0533',
-      href: 'tel:+17477170533'
     }
   ];
 
