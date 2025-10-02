@@ -86,12 +86,7 @@ const Footer = () => {
                 >
                   sn240803@gmail.com
                 </a>
-                <a
-                  href="tel:+17477170533"
-                  className="hover:text-hw-red-400 transition-colors duration-200 block"
-                >
-                  747-717-0533
-                </a>
+                {/* Phone number removed */}
                 <p className="text-sm text-gray-400 mt-4">
                   Available for academic opportunities and project collaborations
                 </p>
