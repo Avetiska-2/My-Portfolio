@@ -3,6 +3,7 @@ import Navigation from './components/layout/Navigation';
 import Hero from './components/sections/Hero';
 import About from './components/sections/About';
 import Academics from './components/sections/Academics';
+import EducationBenefits from './components/sections/EducationBenefits';
 import Projects from './components/sections/Projects';
 import Extracurriculars from './components/sections/Extracurriculars';
 import Contact from './components/sections/Contact';
@@ -18,6 +19,7 @@ function App() {
         <Hero />
         <About />
         <Academics />
+        <EducationBenefits />
         <Projects />
         <Extracurriculars />
         <Contact />

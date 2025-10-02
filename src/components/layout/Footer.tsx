@@ -9,6 +9,8 @@ const Footer = () => {
   const footerLinks = [
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
+    { name: 'Academics', href: '#academics' },
+    { name: 'Benefits', href: '#education-benefits' },
     { name: 'Projects', href: '#projects' },
     { name: 'Contact', href: '#contact' }
   ];
