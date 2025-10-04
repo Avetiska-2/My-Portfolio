@@ -213,7 +213,11 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent className="space-y-6">
                   {contactInfo.map((info, index) => (
-                    <div key={index} className="flex items-center">
+                    <div
+                      key={index}
+                      className="flex items-center animate-fade-in-up"
+                      style={{ animationDelay: `${0.15 * index}s` }}
+                    >
                       <div className="bg-hw-red-100 p-3 rounded-full mr-4">
                         <info.icon className="text-hw-red-700" size={20} />
                       </div>
@@ -248,8 +252,9 @@ const Contact = () => {
                         href={social.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`bg-hw-gray-100 p-4 rounded-full transition-all duration-200 hover:bg-hw-gray-200 ${social.color}`}
+                        className={`bg-hw-gray-100 p-4 rounded-full transition-all duration-200 hover:bg-hw-gray-200 ${social.color} animate-fade-in`}
                         title={social.label}
+                        style={{ animationDelay: `${0.1 * index + 0.1}s` }}
                       >
                         <social.icon size={24} />
                       </a>

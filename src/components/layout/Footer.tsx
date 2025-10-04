@@ -37,7 +37,7 @@ const Footer = () => {
               <h3 className="text-xl font-bold mb-4 text-gradient bg-gradient-to-r from-hw-red-400 to-hw-red-600 bg-clip-text text-transparent">
                 Avetis Boiadzhian
               </h3>
-              <p className="text-gray-300 mb-4 leading-relaxed">
+              <p className="text-gray-300 mb-4 leading-relaxed animate-fade-in-up">
                 Future Harvard-Westlake Scholar and aspiring Stanford Engineer. 
                 Passionate about robotics, technology, and making a positive impact 
                 through innovation and excellence.
@@ -49,8 +49,9 @@ const Footer = () => {
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-hw-red-400 transition-colors duration-200"
+                    className="text-gray-400 hover:text-hw-red-400 transition-colors duration-200 animate-fade-in"
                     aria-label={social.label}
+                    style={{ animationDelay: `${0.1 * index + 0.1}s` }}
                   >
                     <social.icon size={20} />
                   </a>
@@ -63,7 +64,7 @@ const Footer = () => {
               <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
               <ul className="space-y-2">
                 {footerLinks.map((link, index) => (
-                  <li key={index}>
+                  <li key={index} className="animate-fade-in-up" style={{ animationDelay: `${0.1 * index + 0.1}s` }}>
                     <button
                       onClick={() => handleNavClick(link.href)}
                       className="text-gray-300 hover:text-hw-red-400 transition-colors duration-200 text-left"
@@ -78,7 +79,7 @@ const Footer = () => {
             {/* Contact Info */}
             <div>
               <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
-              <div className="space-y-2 text-gray-300">
+              <div className="space-y-2 text-gray-300 animate-fade-in-up">
                 <p>Burbank, CA</p>
                 <a
                   href="mailto:sn240803@gmail.com"
@@ -86,7 +87,6 @@ const Footer = () => {
                 >
                   sn240803@gmail.com
                 </a>
-                {/* Phone number removed */}
                 <p className="text-sm text-gray-400 mt-4">
                   Available for academic opportunities and project collaborations
                 </p>
