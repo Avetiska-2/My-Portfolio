@@ -56,13 +56,9 @@ const Hero = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-16">
-            <Button
-              onClick={handleScrollToAbout}
-              size="lg"
-              className="bg-hw-red-700 hover:bg-hw-red-800 text-white px-8 py-3 text-lg shadow-xl hover:shadow-2xl transition-all duration-300"
-            >
+            <button type="button" className="btn" onClick={handleScrollToAbout}>
               Explore My Journey
-            </Button>
+            </button>
             <div className="flex items-center space-x-4">
               <Button
                 variant="outline"
