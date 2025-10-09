@@ -16,8 +16,8 @@ const Projects = () => {
       category: 'Game Development',
       icon: Gamepad2,
       links: {
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        github: 'https://github.com/Avetiska-2',
+        demo: 'https://github.com/Avetiska-2'
       }
     },
     {
@@ -28,8 +28,8 @@ const Projects = () => {
       category: 'Web Development',
       icon: Code,
       links: {
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        github: 'https://github.com/Avetiska-2',
+        demo: 'https://github.com/Avetiska-2'
       }
     },
     {
@@ -40,8 +40,8 @@ const Projects = () => {
       category: 'Web Development',
       icon: Code,
       links: {
-        github: 'https://github.com',
-        demo: 'https://github.com'
+        github: 'https://github.com/Avetiska-2/My-Portfolio',
+        demo: 'https://avetiska-2.github.io/My-Portfolio/'
       }
     },
     {
@@ -52,8 +52,8 @@ const Projects = () => {
       category: 'Design',
       icon: Palette,
       links: {
-        figma: 'https://figma.com',
-        demo: 'https://figma.com'
+        figma: 'https://www.figma.com/@Avetiska',
+        demo: 'https://www.figma.com/@Avetiska'
       }
     }
   ];
@@ -184,7 +184,7 @@ const Projects = () => {
             <Button
               size="lg"
               className="bg-hw-red-700 hover:bg-hw-red-800 text-white px-8 py-3"
-              onClick={() => window.open('https://github.com', '_blank')}
+              onClick={() => window.open('https://github.com/Avetiska-2', '_blank')}
             >
               <Github size={20} className="mr-2" />
               View All Projects on GitHub

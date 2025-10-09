@@ -73,7 +73,7 @@ const Hero = () => {
                 variant="outline"
                 size="lg"
                 className="border-white text-white hover:bg-white hover:text-hw-red-700 shadow-lg"
-                onClick={() => window.open('https://github.com', '_blank')}
+                onClick={() => window.open('https://github.com/Avetiska-2', '_blank')}
               >
                 <Github size={20} className="mr-2" />
                 GitHub

@@ -14,9 +14,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Github, href: 'https://github.com', label: 'GitHub' },
+    { icon: Github, href: 'https://github.com/Avetiska-2', label: 'GitHub' },
     { icon: Mail, href: 'mailto:sn240803@gmail.com', label: 'Email' },
-    { icon: Linkedin, href: 'https://linkedin.com', label: 'LinkedIn' }
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/avetis-boiadzhian-1b07b7389', label: 'LinkedIn' }
   ];
 
   const handleNavClick = (href: string) => {
