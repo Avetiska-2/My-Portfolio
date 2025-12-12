@@ -16,8 +16,8 @@ const Projects = () => {
       category: 'Game Development',
       icon: Gamepad2,
       links: {
-        github: 'https://github.com/Avetiska-2',
-        demo: 'https://github.com/Avetiska-2'
+        github: 'Coming soon.',
+        demo: 'Coming soon.'
       }
     },
     {
@@ -28,8 +28,8 @@ const Projects = () => {
       category: 'Web Development',
       icon: Code,
       links: {
-        github: 'https://github.com/Avetiska-2',
-        demo: 'https://github.com/Avetiska-2'
+        github: 'Coming soon.',
+        demo: 'Coming soon.'
       }
     },
     {
@@ -52,8 +52,8 @@ const Projects = () => {
       category: 'Design',
       icon: Palette,
       links: {
-        figma: 'https://www.figma.com/@Avetiska',
-        demo: 'https://www.figma.com/@Avetiska'
+        figma: 'Coming soon.',
+        demo: 'Coming soon.'
       }
     }
   ];
