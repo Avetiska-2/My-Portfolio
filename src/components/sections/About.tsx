@@ -3,8 +3,6 @@ import { Card, CardContent } from '../ui/card';
 import { MapPin, GraduationCap, Target, Heart } from 'lucide-react';
 
 const About = () => {
-  console.log('About component rendered');
-
   return (
     <section id="about" className="py-20 bg-hw-gray-50">
       <div className="container-max section-padding">
@@ -15,7 +13,7 @@ const About = () => {
               About <span className="text-gradient">Me</span>
             </h2>
             <p className="text-xl text-hw-gray-600 leading-relaxed">
-              My multicultural journey from Armenia to academic excellence in Los Angeles
+              My journey from Armenia to Los Angeles and my interest in STEM and computer science
             </p>
           </div>
 
@@ -28,9 +26,9 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-hw-gray-900">My Journey</h3>
                 </div>
                 <p className="text-hw-gray-600 leading-relaxed">
-                  Born in Armenia and spent nine formative years in Russia before settling in Los Angeles. 
-                  This multicultural background has shaped my unique perspective on technology and its power 
-                  to bridge diverse communities across the globe.
+                  I was born in Armenia and spent nine formative years in Russia before moving to Los Angeles.
+                  Living in different countries helped me adapt quickly, learn from new environments, and
+                  appreciate how technology can connect people across cultures.
                 </p>
               </CardContent>
             </Card>
@@ -42,9 +40,9 @@ const About = () => {
                   <h3 className="text-xl font-semibold text-hw-gray-900">Current Education</h3>
                 </div>
                 <p className="text-hw-gray-600 leading-relaxed">
-                  Currently excelling at John Burroughs High School with a 3.7+ GPA. 
-                  Taking challenging AP courses including Physics, Computer Science, 
-                  and US History to prepare for elite university education.
+                  I attend John Burroughs High School in Burbank and maintain a 3.7+ GPA.
+                  I’m taking challenging courses such as AP Computer Science A, AP Physics, and AP U.S. History
+                  while continuing to strengthen my academic English.
                 </p>
               </CardContent>
             </Card>
@@ -53,12 +51,12 @@ const About = () => {
               <CardContent className="p-8">
                 <div className="flex items-center mb-4">
                   <Target className="text-hw-red-700 mr-3" size={24} />
-                  <h3 className="text-xl font-semibold text-hw-gray-900">Academic Goals</h3>
+                  <h3 className="text-xl font-semibold text-hw-gray-900">Goals</h3>
                 </div>
                 <p className="text-hw-gray-600 leading-relaxed">
-                  Aspiring to join Harvard-Westlake School's prestigious academic community, 
-                  then pursue engineering at Stanford University. My goal is to develop 
-                  innovative solutions that make technology more accessible globally.
+                  I am applying to Harvard-Westlake School to learn in a rigorous environment and grow as a
+                  student and developer. Long-term, I hope to study computer science or engineering and build
+                  technology that helps people solve real problems.
                 </p>
               </CardContent>
             </Card>
@@ -67,12 +65,11 @@ const About = () => {
               <CardContent className="p-8">
                 <div className="flex items-center mb-4">
                   <Heart className="text-hw-red-700 mr-3" size={24} />
-                  <h3 className="text-xl font-semibold text-hw-gray-900">Passions</h3>
+                  <h3 className="text-xl font-semibold text-hw-gray-900">Interests</h3>
                 </div>
                 <p className="text-hw-gray-600 leading-relaxed">
-                  Passionate about robotics, game development, and technology. 
-                  I believe in using technology to solve real-world problems and 
-                  mentoring younger students in STEM fields.
+                  I enjoy robotics, game development, and building software projects. I like learning by doing,
+                  experimenting with new ideas, and improving my skills through practice and feedback.
                 </p>
               </CardContent>
             </Card>
@@ -81,10 +78,10 @@ const About = () => {
           {/* Personal Quote */}
           <div className="text-center bg-white rounded-xl p-8 shadow-lg animate-fade-in-up">
             <blockquote className="text-2xl font-light text-hw-gray-700 italic mb-4">
-              "My journey across three countries has taught me that education transcends borders. 
-              Every challenge is an opportunity to grow and contribute to something greater."
+              "Moving across countries taught me that challenges are also opportunities. I try to learn fast,
+              stay consistent, and keep building."
             </blockquote>
-            <cite className="text-hw-red-700 font-medium">— My Philosophy</cite>
+            <cite className="text-hw-red-700 font-medium">— Personal note</cite>
           </div>
         </div>
       </div>
