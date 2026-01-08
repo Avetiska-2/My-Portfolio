@@ -44,7 +44,7 @@ const Academics = () => {
       year: '2024-2025',
       title: 'Sophomore Success',
       description: 'Made Honor Roll both semesters, joined competitive robotics team',
-      achievements: ['Honor Roll (2 semesters)', 'Robotics Team Capitan']
+      achievements: ['Honor Roll (2 semesters)', 'Robotics Team Captain']
     },
     {
       year: '2023-2024',
