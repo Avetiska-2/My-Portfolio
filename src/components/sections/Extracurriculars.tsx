@@ -10,7 +10,7 @@ const Extracurriculars = () => {
     {
       title: 'Robotics Team Captain',
       organization: 'John Burroughs High School',
-      duration: '2023 - Present',
+      duration: '2023 - 2025',
       description: 'Leading a team of 12 students in competitive robotics, managing project timelines, and mentoring new members in programming and engineering principles.',
       achievements: ['Regional Tournament Finalist', 'Team Leadership Award', 'Programming Excellence'],
       icon: Bot,
