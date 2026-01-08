@@ -11,7 +11,7 @@ const Projects = () => {
     {
       title: 'Unity 3D Adventure Game',
       description: 'Immersive 3D adventure game built with Unity featuring dynamic environments, inventory system, and engaging gameplay mechanics.',
-      image: 'https://th.bing.com/th/id/OIP.OsfoaSHZ6l4wNeYwY3D0ZwHaEK?w=333&h=187&c=7&r=0&o=7&cb=ucfimg2&dpr=1.5&pid=1.7&rm=3&ucfimg=1',
+      image: `${import.meta.env.BASE_URL}images/unity-game.jpg`,
       technologies: ['Unity', 'C#', '3D Modeling', 'Game Design'],
       category: 'Game Development',
       icon: Gamepad2,
