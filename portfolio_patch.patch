@@ -1,0 +1,69 @@
+*** Begin Patch
+*** Update File: src/components/sections/Hero.tsx
+@@
+-           <p className="text-3xl md:text-4xl mb-6 font-semibold text-white drop-shadow-lg" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
+-             Future Harvard-Westlake Scholar
+-           </p>
++           <p className="text-3xl md:text-4xl mb-6 font-semibold text-white drop-shadow-lg" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
++             Harvard-Westlake applicant
++           </p>
+@@
+-           <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed" 
+-              style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
+-             Born in Armenia, raised 9 years in Russia, now pursuing excellence in Los Angeles. 
+-             Currently at John Burroughs High School, building innovative projects 
+-             and preparing for the next chapter at Harvard-Westlake.
+-           </p>
++           <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed" 
++              style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
++             I was born in Armenia and spent nine years in Russia before moving to Los Angeles. 
++             Living in different countries has helped me adapt quickly, learn from new environments, and appreciate how technology can connect people across cultures. 
++             I am currently studying at John Burroughs High School, building innovative projects 
++             and preparing for the next chapter at Harvard-Westlake.
++           </p>
+*** Update File: src/components/sections/Academics.tsx
+@@ const academicTimeline = [
+-       achievements: ['Harvard-Westlake Application', 'Math Tutoring',' Stanford Summer Session Application','College Projects']
++       achievements: ['Harvard-Westlake Application', 'Math Tutoring', 'Stanford Summer Session Application', 'College Projects']
+@@ const academicTimeline = [
+-       achievements: ['3.6 GPA', 'Math Competition', 'Science Fair Participant','Robotic Tournament in Moscow']
++       achievements: ['3.6 GPA', 'Math Competition', 'Science Fair Participant', 'Robotics Tournament in Moscow']
+*** Update File: src/components/layout/Footer.tsx
+@@
+-               <p className="text-gray-300 mb-4 leading-relaxed animate-fade-in-up">
+-                 Future Harvard-Westlake Scholar and aspiring Stanford Engineer. 
+-                 Passionate about robotics, technology, and making a positive impact 
+-                 through innovation and excellence.
+-               </p>
++               <p className="text-gray-300 mb-4 leading-relaxed animate-fade-in-up">
++                 Harvard-Westlake applicant and aspiring Stanford Engineer. 
++                 Passionate about robotics, technology, and making a positive impact 
++                 through innovation and excellence.
++               </p>
+*** Update File: index.html
+@@
+-    <title>Avetis Boiadzhian - Portfolio | Future Harvard-Westlake Scholar</title>
++    <title>Avetis Boiadzhian - Portfolio | Harvard-Westlake Applicant</title>
+@@
+-    <meta name="description" content="Portfolio of Avetis Boiadzhian, aspiring Harvard-Westlake student and future Stanford engineer. Showcasing academic achievements, projects, and extracurricular activities." />
++    <meta name="description" content="Portfolio of Avetis Boiadzhian, Harvard-Westlake applicant and aspiring Stanford engineer. Showcasing academic achievements, projects, and extracurricular activities." />
+@@
+-    <meta property="og:title" content="Avetis Boiadzhian - Portfolio | Future Harvard-Westlake Scholar" />
++    <meta property="og:title" content="Avetis Boiadzhian - Portfolio | Harvard-Westlake Applicant" />
+@@
+-    <meta property="og:description" content="Portfolio of Avetis Boiadzhian, aspiring Harvard-Westlake student and future Stanford engineer. Showcasing academic achievements, projects, and extracurricular activities." />
++    <meta property="og:description" content="Portfolio of Avetis Boiadzhian, Harvard-Westlake applicant and aspiring Stanford engineer. Showcasing academic achievements, projects, and extracurricular activities." />
+@@
+-    <meta name="twitter:title" content="Avetis Boiadzhian - Portfolio | Future Harvard-Westlake Scholar" />
++    <meta name="twitter:title" content="Avetis Boiadzhian - Portfolio | Harvard-Westlake Applicant" />
+@@
+-    <meta name="twitter:description" content="Portfolio of Avetis Boiadzhian, aspiring Harvard-Westlake student and future Stanford engineer. Showcasing academic achievements, projects, and extracurricular activities." />
++    <meta name="twitter:description" content="Portfolio of Avetis Boiadzhian, Harvard-Westlake applicant and aspiring Stanford engineer. Showcasing academic achievements, projects, and extracurricular activities." />
+@@
+-       "description": "Aspiring Harvard-Westlake student and future Stanford engineer",
++       "description": "Harvard-Westlake applicant and aspiring Stanford engineer",
+*** Update File: README.md
+@@
+-*Future Harvard-Westlake Scholar • Aspiring Stanford Engineer*
++*Harvard-Westlake applicant • Aspiring Stanford Engineer*
+*** End Patch
