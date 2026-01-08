@@ -50,7 +50,7 @@ const Academics = () => {
       year: '2023-2024',
       title: 'Freshman Foundation',
       description: 'Strong academic start with focus on STEM subjects',
-      achievements: ['3.6 GPA', 'Math Competition', 'Science Fair Participant','Robotic Tournament in Moscow']
+      achievements: ['3.6 GPA', 'Math Competition', 'Science Fair Participant','Robotics Tournament in Moscow']
     }
   ];
 
