@@ -38,19 +38,19 @@ const Academics = () => {
       year: '2025-2026',
       title: 'Junior Year Excellence',
       description: 'Maintaining 3.7+ GPA while taking 3 AP courses and leading robotics team',
-      achievements: ['Harvard-Westlake Application', 'Robotics Captain']
+      achievements: ['Harvard-Westlake Application', 'Math Tutoring',' Stanford Summer Session Application','College Projects']
     },
     {
       year: '2024-2025',
       title: 'Sophomore Success',
       description: 'Made Honor Roll both semesters, joined competitive robotics team',
-      achievements: ['Honor Roll (2 semesters)', 'Robotics Team Member']
+      achievements: ['Honor Roll (2 semesters)', 'Robotics Team Capitan']
     },
     {
       year: '2023-2024',
       title: 'Freshman Foundation',
       description: 'Strong academic start with focus on STEM subjects',
-      achievements: ['3.6 GPA', 'Math Competition', 'Science Fair Participant']
+      achievements: ['3.6 GPA', 'Math Competition', 'Science Fair Participant','Robotic Tournament in Moscow']
     }
   ];
 
