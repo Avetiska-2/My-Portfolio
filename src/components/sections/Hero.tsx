@@ -40,7 +40,7 @@ const Hero = () => {
 
           {/* Main Tagline - Enhanced */}
           <p className="text-3xl md:text-4xl mb-6 font-semibold text-white drop-shadow-lg" style={{ textShadow: '0 2px 8px rgba(0, 0, 0, 0.8)' }}>
-            Future Harvard-Westlake Scholar
+            Harvard-Westlake applicant
           </p>
           <p className="text-xl md:text-2xl mb-8 text-gray-200 font-light">
             Aspiring Stanford Engineer • Robotics Enthusiast • Unity Developer
