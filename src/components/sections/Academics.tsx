@@ -28,9 +28,9 @@ const Academics = () => {
   ];
 
   const apCourses = [
-    { name: 'AP Physics 1', grade: 'A', year: '2025' },
+    { name: 'AP Physics 1', grade: 'B', year: '2025' },
     { name: 'AP Computer Science A', grade: 'A+', year: '2025' },
-    { name: 'AP US History', grade: 'A-', year: '2025' }
+    { name: 'AP US History', grade: 'B+', year: '2025' }
   ];
 
   const academicTimeline = [
