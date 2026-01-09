@@ -49,7 +49,7 @@ const Hero = () => {
           {/* Bio - Lighter text */}
           <p className="text-lg md:text-xl mb-12 max-w-2xl mx-auto leading-relaxed" 
              style={{ color: 'rgba(255, 255, 255, 0.9)' }}>
-            Born in Armenia, raised 9 years in Russia, now pursuing excellence in Los Angeles. 
+            I was born in Armenia and spent 9 formative years in Russia before moving to Los Angeles. 
             Currently at John Burroughs High School, building innovative projects 
             and preparing for the next chapter at Harvard-Westlake.
           </p>
