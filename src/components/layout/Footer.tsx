@@ -38,7 +38,7 @@ const Footer = () => {
                 Avetis Boiadzhian
               </h3>
               <p className="text-gray-300 mb-4 leading-relaxed animate-fade-in-up">
-                Future Harvard-Westlake Scholar and aspiring Stanford Engineer. 
+                Harvard‑Westlake applicant and aspiring Stanford Engineer. 
                 Passionate about robotics, technology, and making a positive impact 
                 through innovation and excellence.
               </p>
